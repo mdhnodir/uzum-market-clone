@@ -274,6 +274,9 @@ sup {
 .header-about a:hover {
   color: #131313;
 }
+.header-flat {
+  position: relative;
+}
 @media screen and (min-width: 990px) {
   .header-flat {
     display: flex;
@@ -363,8 +366,105 @@ sup {
   align-items: center;
   justify-content: space-between;
 }
+.header .nav-menu {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+  background-color: #fff;
+}
+@media screen and (min-width: 990px) {
+  .header .nav-menu {
+    top: 60px;
+  }
+}
+.header .nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100vw;
+  padding: 10px 0;
+}
+@media screen and (min-width: 990px) {
+  .header .nav-list {
+    flex-basis: 20%;
+  }
+}
+.header .nav-list a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header .nav-list a img {
+  width: 24px;
+}
+@media screen and (min-width: 990px) {
+  .header .nav-list a {
+    gap: 10px;
+    padding: 0px 10px;
+    border-radius: 4px;
+  }
+  .header .nav-list a:hover {
+    background-color: rgba(98, 101, 106, 0.1725490196);
+  }
+  .header .nav-list a:hover p {
+    color: #6e00ff;
+  }
+}
+.header .nav-list p {
+  padding: 15px 0;
+  font-size: 13px;
+  width: 100%;
+  border-bottom: 2px solid rgba(98, 101, 106, 0.1843137255);
+}
+@media screen and (min-width: 990px) {
+  .header .nav-list p {
+    border-bottom: transparent;
+  }
+}
 .header .nav .top a {
   color: #131313;
+}
+.header .nav-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 80%;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+}
+.header .nav-box .nav-inner {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 10%;
+  padding: 17px 0;
+}
+.header .nav-box .inner-list {
+  padding: 17px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.header .nav-box .inner-item {
+  font-weight: 600;
+  font-size: 17px;
+}
+.header .nav-box .inner-item:hover {
+  color: #6e00ff;
+}
+.header .nav-box .list-item {
+  font-size: 13px;
+}
+.header .nav-box .list-item:hover {
+  color: #6e00ff;
+}
+.header .nav-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.header .nav-title:hover {
+  color: #6e00ff;
 }
 .header .nav li.line {
   position: relative;
@@ -468,6 +568,11 @@ sup {
 }
 .header-mobile-list li p {
   color: #62656a;
+}
+@media screen and (min-width: 990px) {
+  .header-mobile {
+    display: none;
+  }
 }
 
 .search-form {
