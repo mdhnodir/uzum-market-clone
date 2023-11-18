@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', { 'title': 'Главная' })
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html', {})
+      <main class="page">
+        <div class="container">
+          <div class="link">
+            <a href="#">Главная /</a>
+            <a href="#">Все категории /</a>
+            <a href="#">Категория</a>
+          </div>
+        </div>
+        <section class="category">
+          <div class="container">
+            <div class="category-wrapper">
+              
+              <div class="category-box">
+                <div class="category-sidebar">
+                  <div class="sidebar-inner">
+                    <div class="title">
+                      <h1>Категории</h1>
+                    </div>
+                    <ul>
+                      <li><a href="#">Все категории</a></li>
+                      <li><a href="#">Электроника</a></li>
+                      <li><a href="#">Аксессуары для электроники</a></li>
+                      <li><a href="#">Игровые приставки</a></li>
+                      <li><a href="#">Навигаторы</a></li>
+                    </ul>
+                  </div>
+                  <div class="sidebar-inner">
+                    <div class="title">
+                      <h1>Цена</h1>
+                    </div>
+                    <div class="sidebar-form">
+                      <div class="sidebar-price">
+                        <input type="text" placeholder="От 1000 so'm">
+                        <input type="text" placeholder="До 100000 so'm">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar-inner">
+                    <div class="title">
+                      <h1>Цвет</h1> 
+                    </div>
+                    <div class="sidebar-form">
+                      <div class="sidebar-color">
+                        <button>
+                          <span class="black"></span>
+                          <a href="#">Черный</a>
+                        </button>
+                        <button>
+                          <span class="gray"></span>
+                          <a href="#">Серый</a>
+                        </button>
+                        <button>
+                          <span class="white"></span>
+                          <a href="#">Белый</a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar-inner">
+                    <div class="title">
+                      <h1>Бренд</h1>
+                    </div>
+                    <div class="sidebar-form">
+                      <div class="sidebar-checkbox">
+                        <div class="check-box">
+                          <input type="checkbox" name="" id="">
+                          <span> Apple</span>
+                        </div>
+                        <div class="check-box">
+                          <input type="checkbox" name="" id="">
+                          <span> Acer</span>
+                        </div>
+                        <div class="check-box">
+                          <input type="checkbox" name="" id="">
+                          <span> HP</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="category-inner">
+                  <div class="inner-title">
+                    <h1>Электроника</h1>
+                    <span>37 260 товаров</span>
+                  </div>
+                  <div class="inner-filter">
+                    <a href="#" class="filter-elem">
+                      <span>Искать везде</span>
+                    </a>
+                    <a href="#" class="filter-elem">
+                      <span>Аксессуары и запчасти</span>
+                    </a>
+                    <a href="#" class="filter-elem">
+                      <span>Чехлы</span>
+                    </a>
+                    <a href="#" class="filter-elem">
+                      <span>Наушники</span>
+                    </a>
+                  </div>
+                  <div class="inner-sort">
+                    <span>Сначала показывать</span>
+                    <select name="" id="">
+                      <option value="">Популярные</option>
+                      <option value="">Подешевле</option>
+                      <option value="">Подороже</option>
+                    </select>
+                  </div>
+
+                  <ul class="card-list">
+                  
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="card-item">
+                      <a href="#">
+                        <div class="card-img">
+                          <img src="images/product/1.jpg" alt="" />
+                          <button><img src="images/icon/like.svg" alt=""></button>
+                        </div>
+                        <h1 class="card-title">
+                          Кондиционер AUX ASW-HA4/QDR Inverter 9/12/18
+                        </h1>
+                        <div class="card-rating">
+                          <img src="images/icon/star.svg" alt="" />
+                          <p>
+                            4.7(23 оценки)
+                          </p>
+                        </div>
+                        <span class="credits">839 880 сум/мес </span>
+                        <div class="inner">
+                          <div class="price">
+                            <p class="price-old">7 500 000 сум</p>
+                            <p class="price-new">6 999 000 сум</p>
+                          </div>
+                          <button href="#"
+                            ><img src="images/icon/shop.svg" alt=""
+                          /></button>
+                        </div>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('html/footer.html', {})
+    </div>
+    @@include('html/script.html', {})
+  </body>
+</html>
