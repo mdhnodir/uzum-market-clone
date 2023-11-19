@@ -100,8 +100,8 @@
       padding: 20px 0;
       border-bottom: 1px solid #62656a33;
       @media screen and (min-width: 990px) {
-       flex-direction: row;
-       padding: 0;
+        flex-direction: row;
+        padding: 0;
       }
     }
     .offer-form {
@@ -839,9 +839,8 @@
   }
 }
 
-
 .cart {
-  &-wrapper{
+  &-wrapper {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -889,7 +888,7 @@
         padding: 0;
         width: fit-content;
       }
-      p{
+      p {
         font-size: 14px;
         color: $grayColor;
         span {
@@ -925,12 +924,12 @@
       flex-wrap: wrap;
       width: 100%;
       gap: 6px;
-      
+
       &-img {
         width: 28%;
         img {
           height: 110px;
-          padding: 10px  20px;
+          padding: 10px 20px;
         }
         @media screen and (min-width: 990px) {
           display: none;
@@ -950,7 +949,7 @@
       display: none;
       img {
         height: 140px;
-        padding: 10px  20px;
+        padding: 10px 20px;
       }
       @media screen and (min-width: 990px) {
         display: block;
@@ -977,12 +976,14 @@
         align-items: center;
         img {
           padding-right: 5px;
-          filter: brightness(0) saturate(100%) invert(41%) sepia(11%) saturate(220%) hue-rotate(178deg) brightness(89%) contrast(86%);
+          filter: brightness(0) saturate(100%) invert(41%) sepia(11%)
+            saturate(220%) hue-rotate(178deg) brightness(89%) contrast(86%);
         }
         &:hover {
           color: $blackColor;
           img {
-            filter: brightness(0) saturate(100%) invert(0%) sepia(1%) saturate(3953%) hue-rotate(20deg) brightness(92%) contrast(85%);
+            filter: brightness(0) saturate(100%) invert(0%) sepia(1%)
+              saturate(3953%) hue-rotate(20deg) brightness(92%) contrast(85%);
           }
         }
       }
@@ -1047,7 +1048,6 @@
       border: 1px solid $primaryColor;
       margin: 20px 0;
       p {
-
         color: $primaryColor;
         font-size: 14px;
       }
@@ -1058,7 +1058,7 @@
       align-items: center;
       padding-right: 10px;
       img {
-        border: 2px solid #16CA4E;
+        border: 2px solid #16ca4e;
         border-radius: 50%;
         padding: 5px;
       }
@@ -1081,7 +1081,7 @@
   }
 
   .paper-info {
-    h1{
+    h1 {
       font-weight: 600;
       padding: 10px 0 20px 0;
     }
@@ -1110,7 +1110,7 @@
         font-size: 18px;
       }
       span {
-        color: #16CA4E;
+        color: #16ca4e;
         font-size: 14px;
       }
     }
@@ -1120,6 +1120,189 @@
       display: flex;
       justify-content: center;
       padding: 15px;
+    }
+  }
+}
+
+.checkout {
+  .wrapper-title {
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+      padding: 20px 0;
+    }
+  }
+  .checkout-box {
+    display: flex;
+    gap: 10px;
+  }
+
+  .checkout-adress {
+    width: 70%;
+  }
+
+  .checkout-inner {
+    border: 1px solid #62656a33;
+    padding: 15px 15px 25px 15px;
+    margin: 10px 0;
+    h2 {
+      font-size: 17px;
+      padding-bottom: 20px;
+    }
+  }
+  .checkout-item {
+    padding: 10px 0;
+    input {
+      border: 1px solid #62656a33;
+      padding: 7px;
+      font-size: 15px;
+      border-radius: 6px;
+    }
+    &.flex {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      label {
+        width: 60%;
+        font-size: 14px;
+      }
+    }
+    h2 {
+      font-size: 14px;
+    }
+    h3 {
+      font-size: 14px;
+      color: $grayColor;
+      width: 60%;
+    }
+    select {
+      border: 1px solid #62656a33;
+      padding: 10px;
+      font-size: 15px;
+      width: 50%;
+      border-radius: 6px;
+    }
+    option {
+      border: 1px solid #62656a33;
+      padding: 10px;
+      height: 50px;
+      font-size: 15px;
+      width: 50%;
+    }
+    .checkout-item {
+      padding: 6px 20px;
+      gap: 20px;
+      display: flex;
+      align-items: flex-start;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      padding: 0 20px;
+      .checkout-item {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+      }
+    }
+    .radio-info {
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      h3 {
+        font-weight: 600;
+      }
+      .green {
+        font-weight: 600;
+        color: #16ca4e;
+      }
+    }
+  }
+  .checkout-head {
+    display: flex;
+    gap: 10px;
+    .checkout-item {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      label {
+        font-size: 14px;
+      }
+    }
+  }
+  .checkout-basket {
+    width: 30%;
+    border: 1px solid #62656a33;
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: fit-content;
+    .basket-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 17px;
+      }
+      a {
+        color: $grayColor;
+        font-size: 15px;
+        text-decoration: underline;
+      }
+    }
+    .basket-product {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .basket-form {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+      }
+    }
+    .basket-result {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        font-size: 15px;
+      }
+      h1 {
+        font-size: 17px;
+        font-weight: 600;
+      }
+    }
+    .basket-promo {
+      h2 {
+        color: $grayColor;
+        font-size: 15px;
+        padding-bottom: 10px;
+      }
+      input {
+        border: 1px solid #62656a33;
+        padding: 7px;
+        font-size: 15px;
+        border-radius: 6px;
+        width: 100%;
+      }
+    }
+    .btn {
+      display: flex;
+      padding: 15px ;
+      justify-content: center;
+    }
+    .basket-info {
+      p {
+        color: $grayColor;
+        font-size: 14px;
+        a {
+          color: $grayColor;
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

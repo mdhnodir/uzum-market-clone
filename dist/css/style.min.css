@@ -1204,7 +1204,7 @@ sup {
   padding-right: 10px;
 }
 .cart .paper-delivery .delivery-img img {
-  border: 2px solid #16CA4E;
+  border: 2px solid #16ca4e;
   border-radius: 50%;
   padding: 5px;
 }
@@ -1253,7 +1253,7 @@ sup {
   font-size: 18px;
 }
 .cart .paper-info .paper-price span {
-  color: #16CA4E;
+  color: #16ca4e;
   font-size: 14px;
 }
 .cart .paper-info .btn {
@@ -1262,6 +1262,179 @@ sup {
   display: flex;
   justify-content: center;
   padding: 15px;
+}
+
+.checkout .wrapper-title h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+.checkout .checkout-box {
+  display: flex;
+  gap: 10px;
+}
+.checkout .checkout-adress {
+  width: 70%;
+}
+.checkout .checkout-inner {
+  border: 1px solid rgba(98, 101, 106, 0.2);
+  padding: 15px 15px 25px 15px;
+  margin: 10px 0;
+}
+.checkout .checkout-inner h2 {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.checkout .checkout-item {
+  padding: 10px 0;
+}
+.checkout .checkout-item input {
+  border: 1px solid rgba(98, 101, 106, 0.2);
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.checkout .checkout-item.flex {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.checkout .checkout-item.flex label {
+  width: 60%;
+  font-size: 14px;
+}
+.checkout .checkout-item h2 {
+  font-size: 14px;
+}
+.checkout .checkout-item h3 {
+  font-size: 14px;
+  color: #62656a;
+  width: 60%;
+}
+.checkout .checkout-item select {
+  border: 1px solid rgba(98, 101, 106, 0.2);
+  padding: 10px;
+  font-size: 15px;
+  width: 50%;
+  border-radius: 6px;
+}
+.checkout .checkout-item option {
+  border: 1px solid rgba(98, 101, 106, 0.2);
+  padding: 10px;
+  height: 50px;
+  font-size: 15px;
+  width: 50%;
+}
+.checkout .checkout-item .checkout-item {
+  padding: 6px 20px;
+  gap: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.checkout .checkout-item .column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.checkout .checkout-item .column .checkout-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.checkout .checkout-item .radio-info {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.checkout .checkout-item .radio-info h3 {
+  font-weight: 600;
+}
+.checkout .checkout-item .radio-info .green {
+  font-weight: 600;
+  color: #16ca4e;
+}
+.checkout .checkout-head {
+  display: flex;
+  gap: 10px;
+}
+.checkout .checkout-head .checkout-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.checkout .checkout-head .checkout-item label {
+  font-size: 14px;
+}
+.checkout .checkout-basket {
+  width: 30%;
+  border: 1px solid rgba(98, 101, 106, 0.2);
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: fit-content;
+}
+.checkout .checkout-basket .basket-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkout .checkout-basket .basket-head h1 {
+  font-size: 17px;
+}
+.checkout .checkout-basket .basket-head a {
+  color: #62656a;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.checkout .checkout-basket .basket-product {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.checkout .checkout-basket .basket-product .basket-form {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.checkout .checkout-basket .basket-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkout .checkout-basket .basket-result span {
+  font-size: 15px;
+}
+.checkout .checkout-basket .basket-result h1 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.checkout .checkout-basket .basket-promo h2 {
+  color: #62656a;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.checkout .checkout-basket .basket-promo input {
+  border: 1px solid rgba(98, 101, 106, 0.2);
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 6px;
+  width: 100%;
+}
+.checkout .checkout-basket .btn {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+.checkout .checkout-basket .basket-info p {
+  color: #62656a;
+  font-size: 14px;
+}
+.checkout .checkout-basket .basket-info p a {
+  color: #62656a;
+  text-decoration: underline;
 }
 
 .header-wrapper {

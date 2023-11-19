@@ -5,8 +5,166 @@
     <div class="wrapper">
       @@include('html/header.html', {})
       <main class="page">
-        
-        
+        <section class="checkout">
+          <div class="container">
+            <div class="checkout-wrapper">
+              <div class="wrapper-title">
+                <h1>Оформление заказа</h1>
+              </div>
+              <div class="checkout-box">
+                <div class="checkout-adress">
+                  <div class="checkout-inner">
+                    <h2>Способ получения и адрес доставки:</h2>
+                    <div class="checkout-item">
+                      <h2>Город доставки</h2>
+                      <select name="" id="">
+                        <option value="">Кунград</option>
+                        <option value="">Кунград</option>
+                      </select>
+                    </div>
+                    <div class="checkout-item">
+                      <h2>Способ получения</h2>
+                      <div class="checkout-item column">
+                        <div class="checkout-item">
+                          <input type="radio" name="" id="">
+                          <div class="radio-info">
+                            <h3>Пункт выдачи Uzum</h3>
+                            <p>Можно забрать 20 ноября (Завтра),<span class="green">бесплатно</span> </з>
+                          </div>
+                        </div>
+                        <div class="checkout-item">
+                          <input type="radio" name="" id="">
+                          <div class="radio-info">
+                            <h3>Курьером до двери</h3>
+                            <p>Доставим завтра <span class="green">бесплатно</span></p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="checkout-item">
+                      <h2>Выберите пункт выдачи
+                      </h2>
+                      <div class="checkout-item column">
+                        <div class="checkout-item">
+                          <input type="radio" name="" id="">
+                          <div class="radio-info">
+                            <h3>г. Аккурган, улица Фуркат, дом 74</h3>
+                            <p>10:00 – 18:00, без выходных</p>
+                          </div>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkout-inner">
+                    <h2>Получатель заказа:</h2>
+                    <div class="checkout-head flex">
+                      <div class="checkout-item">
+                        <label for="">Фамилия </label>
+                        <input type="text" />
+                      </div>
+                      <div class="checkout-item">
+                        <label for="">Имя </label>
+                        <input type="text" />
+                      </div>
+                    </div>
+                    <div class="checkout-item">
+                      <h3>
+                        Мы пришлем уведомление о статусе заказа на указанный
+                        вами телефон. Курьер свяжется с вами по телефону для
+                        уточнения времени доставки.
+                      </h3>
+                    </div>
+                    <div class="checkout-item">
+                      <h2>Номер телефона</h2>
+                      <input type="number" name="" id="">
+                    </div>
+                    <div class="checkout-item flex">
+                      <input type="checkbox" name="" id="" />
+                      <label for=""
+                        >Подписаться на наши новости и акции. Вы будете одними
+                        из первых узнавать о новых скидках, акциях и
+                        распродажах.</label
+                      >
+                    </div>
+                  </div>
+                  <div class="checkout-inner">
+                    <h1>Способ оплаты</h1>
+                    <div class="checkout-item column">
+                      <div class="checkout-item">
+                        <input type="radio" name="" id="">
+                        <div class="radio-info">
+                          <h3>Картой онлайн</h3>
+                          <span>MasterCard, Uzcard, HUMO, VISA</span>
+                        </div>
+                      </div>
+                      <div class="checkout-item">
+                        <input type="radio" name="" id="">
+                        <div class="radio-info">
+                          <h3>Рассрочка Uzum Nasiya</h3>
+                          <span></span>
+                        </div>
+                      </div>
+                      <div class="checkout-item">
+                        <input type="radio" name="" id="">
+                        <div class="radio-info">
+                          <h3>Наличными или картой при получении</h3>
+                          <span>Оплата в пункте выдачи или курьеру при получении заказа</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkout-inner">
+                    <h1>Товары в заказе</h1>
+                    <div class="checkout-item">
+                      <h2></h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="checkout-basket">
+                  <div class="basket-head">
+                    <h1>Ваш заказ
+                    </h1>
+                    <a href="#">
+                      Перейти в корзину</a>
+                  </div>
+                  <div class="basket-product">
+                    <div class="basket-form">
+                      <span>Товары (1):
+
+                      </span>
+                      <p>3 090 000 сум
+                      </p>
+                    </div>
+                    <div class="basket-form">
+                      <span>Доставка:
+                      </span>
+                      <p>бесплатно</p>
+                    </div>
+                  </div>
+                  <div class="basket-result">
+                    <span>Итого:
+                    </span>
+                    <h1>3 090 000 сум
+
+                    </h1>
+                  </div>
+                  <div class="basket-promo">
+                    <h2>Есть промокод?</h2>
+                    <input type="text">
+                  </div>
+                  <button class="btn primary">Оформить заказ</button>
+                  
+                  <div class="basket-info">
+                    <p>Размещая заказ, вы соглашаетесь на обработку персональных данных в соответствии с <a href="">Соглашением о конфиденциальности</a>и<a href="">  Пользовательским соглашением Uzum.</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       @@include('html/footer.html', {})
     </div>
